@@ -7,7 +7,7 @@ import Index from '../../Academicos';
 
 
 export function Dictamen_IGE(props){
-console.log("pdf props", props);
+//console.log("pdf props", props);
   const dateToFormat = new Date();
   let carrera='';
   const meses=['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
@@ -21,7 +21,7 @@ console.log("pdf props", props);
           <Text>INSTITUTO TECNOLÓGICO DE COMITANCILLO</Text>
           <Text>DEPARTAMENTO DE CIENCIAS ECONOMICO ADMINISTRATIVAS</Text>
           <Text style={{marginTop:20}}>   DICTAMEN DE REPORTE PRELIMINAR DE RESIDENCIAS PROFESIONALES </Text>
-          <Text>INGENIERÍA INFORMATICA</Text>
+  <Text>INGENIERÍA GESTION EMPRESARIAL</Text>
         </View>      
         <View >
 
